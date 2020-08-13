@@ -2,7 +2,7 @@
 source ./askey.sh                                          # <1>
 
 #
-# Ncrypt - Encrypt - reads in characters
+# Encrypt - reads in characters
 #           outputs 2digit hex #s
 #
 function Ncrypt ()                                         # <2>
@@ -20,7 +20,7 @@ function Ncrypt ()                                         # <2>
 }
 
 #
-# Dcrypt - DECRYPT - reads in a 2digit hex #s
+# DECRYPT - reads in a 2digit hex #s
 #           outputs characters
 #
 function Dcrypt ()                                  # <9>
